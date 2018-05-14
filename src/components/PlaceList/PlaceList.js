@@ -1,20 +1,27 @@
-import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity} from 'react-native';
-import ListItem from '../ListItem/ListItem';
+import React from "react";
+import { StyleSheet, FlatList } from "react-native";
+
+import ListItem from "../ListItem/ListItem";
 
 const placeList = props => {
-    const placesOutput = props.places.map((place, index) => (
-        <ListItem key={index} place={place} onListItemPressed={() => props.onItemDeleted(index)}/>
-      ));
-      return <View style={styles.listContainer}>
-        {placesOutput}
-      </View>
-    }
+  return (
+    <FlatList
+      style={styles.listContainer}
+      data={props.places}
+      renderItem={(info) => (
+        <ListItem
+          placeName={info.item.value}
+          onListItemPressed={() => props.onItemDeleted(info.item.key)}
+        />
+      )}
+    />
+  );
+};
+
 const styles = StyleSheet.create({
-    listContainer: {
-        width: "100%",
-        padding: 20
-      }
+  listContainer: {
+    width: "100%"
+  }
 });
 
 export default placeList;
