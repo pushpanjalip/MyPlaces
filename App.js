@@ -1,13 +1,33 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
+import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
+import PlaceInput from './src/components/PlaceInput/PlaceInput';
+import PlaceList from './src/components/PlaceList/PlaceList';
 export default class App extends React.Component {
+  state= {
+    places: []
+  }
+  placeAddedHandler = placeName => {
+    this.setState(prevState => {
+      return {
+        places: prevState.places.concat(placeName)
+      };
+    });
+  };
+  placeDeleteHandler = index => {
+    this.setState(prevState => {
+      return {
+        places: prevState.places.filter((place, i)=> {
+          return i !== index
+        })
+      };
+    });
+  }
   render() {
+   
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+      <PlaceInput onPlaceAdded={this.placeAddedHandler} />
+      <PlaceList places={this.state.places} onItemDeleted={this.placeDeleteHandler}/>
       </View>
     );
   }
@@ -16,8 +36,10 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    padding: 20,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
-  },
+    justifyContent: 'flex-start',
+  }
+  
 });
