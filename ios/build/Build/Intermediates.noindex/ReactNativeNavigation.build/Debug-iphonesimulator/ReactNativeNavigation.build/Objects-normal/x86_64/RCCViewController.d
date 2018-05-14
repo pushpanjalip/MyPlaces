@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCViewController.m \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCViewController.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCNavigationController.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCTabBarController.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerController.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCDrawerController/MMDrawerController/MMDrawerController.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerProtocol.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCDrawerController/RCCTheSideBarManagerViewController.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/TheSidebarController.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/Animations/SidebarAnimation.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCManager.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCExternalViewControllerProtocol.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/Helpers/RCTHelpers.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/Helpers/RCCTitleViewHelper.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/node_modules/react-native-navigation/ios/RCCCustomTitleView.h \
+  /Users/poojapawar/ReactNative/AwesomePlaces/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootViewDelegate.h
